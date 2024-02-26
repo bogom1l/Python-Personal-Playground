@@ -47,3 +47,4 @@ def StartGame():
 if __name__ == "__main__":
     word = 'bogomil'
     StartGame()
+    

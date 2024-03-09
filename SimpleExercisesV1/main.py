@@ -19,8 +19,5 @@ while numbers:
 print(reversed_array)
 """
 
-print(1)
-
-
-
+print(123)
 

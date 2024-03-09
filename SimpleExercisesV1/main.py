@@ -19,5 +19,6 @@ while numbers:
 print(reversed_array)
 """
 
-print(123)
-
+#lambda
+calc = lambda num: "Even number" if num % 2 == 0 else "Odd number"
+print(calc(12))

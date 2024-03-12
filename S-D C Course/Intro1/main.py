@@ -126,33 +126,94 @@
 # print(books)
 # print(more_books)
 
-numbers = [4, 3, 7, 4]
-print(numbers)
-print(len(numbers))
-print(max(numbers))
-print(min(numbers))
-print(sorted(numbers))
-print(sorted(numbers, reverse=True))
+# numbers = [4, 3, 7, 4]
+# print(numbers)
+# print(len(numbers))
+# print(max(numbers))
+# print(min(numbers))
+# print(sorted(numbers))
+# print(sorted(numbers, reverse=True))
+#
+# names = ['Thomas', 'Alex', 'Zack']
+# print(names)
+# print(len(names))
+# print(max(names))
+# print(min(names))
+# print(sorted(names))
+# print(sorted(names, reverse=True))
+#
+#
+# months1 = '-'.join(['January', 'February', 'March'])
+# print(months1)
+# months2 = ' '.join(['January', 'February', 'March'])
+# print(months2)
+#
+# months_list = ['January', 'February', 'March']
+# months_list.append('April')
+# print(months_list)
+#
+# print('This person is {}, {}, and {}'.format('tall', 'slim', 'strong'))
 
-names = ['Thomas', 'Alex', 'Zack']
-print(names)
-print(len(names))
-print(max(names))
-print(min(names))
-print(sorted(names))
-print(sorted(names, reverse=True))
+# #tuples
+# traits = 'tall', 'slim', 'strong' #('tall', 'slim', 'strong')
+# height = traits[0]
+# build = traits[1]
+# print(height, build)
+# height, build, hair = 'tall', 'slim', 'blond'
+# print(height, build, hair)
+
+# #sets
+# numbers = [1, 1, 2, 2, 3, 3]
+# unique_numbers = set(numbers)
+# print(unique_numbers)
+#
+# unique_numbers.add(4)
+# print(unique_numbers)
+#
+# unique_numbers.add(2)
+# print(unique_numbers)
+#
+# print(2 in unique_numbers)
+
+# #dictionaries
+# inventory = {'bananas': 1.29, 'apples': 2.99, 'papayas': 1.39}
+# print(type(inventory), ' : ', inventory)
+#
+# print(inventory['bananas'])
+#
+# inventory['bananas'] = 1.35
+# print(inventory['bananas'])
+#
+# apples_price = inventory.get('apples')
+# print(apples_price)
+# strawberries_price = inventory.get('strawberries')
+# print(strawberries_price)
+#
+# print('love' in inventory)
+# print('papayas' in inventory)
+
+# #compound data structures (dictionary in dictionary)
+# groceries = {'bananas': {'price': 2.99, 'country of origin': 'Guatemola'},
+#              'apples': {'price': 1.99, 'country of origin': 'UK'},
+#              'papayas': {'price': 4.99, 'country of origin': 'Costa Rica'}
+#              }
+# print(type(groceries))
+# print(groceries)
+# print(f"Info about apples: {groceries['apples']}")
+#
+# apples_country_of_origin = groceries['apples']['country of origin']
+# print(apples_country_of_origin)
+#
+# bananas_price = groceries['bananas']['price']
+# print(bananas_price)
+#
+# for item, details in groceries.items():
+#     print(f"The price of {item} is {details['price']:.2f} dollars")
 
 
-months1 = '-'.join(['January', 'February', 'March'])
-print(months1)
-months2 = ' '.join(['January', 'February', 'March'])
-print(months2)
 
-months_list = ['January', 'February', 'March']
-months_list.append('April')
-print(months_list)
 
-print('This person is {}, {}, and {}'.format('tall', 'slim', 'strong'))
+
 
 
 

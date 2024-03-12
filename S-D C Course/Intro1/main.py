@@ -77,7 +77,82 @@
 # print(show_title[2:5])
 # print(show_title[2:])
 
+# months = ['January', 'February', 'March']
+# print('June' in months)
+# print('March' in months)
+# print('August' not in months)
+# print('February' not in months)
+# print('-------------')
+#
+# course = 'python crash course'
+# print('crash' in course)
+#
+# ans = 'rash' in course
+# print(ans)
+#
+# print('abc' not in course)
 
+# grocery_list = ['bananas', 'apples', 'cauliflower']
+# print(grocery_list)
+# grocery_list[2] = 'strawberries'
+# print(grocery_list)
+#
+# misspelled_vegetable = 'cucomber'
+# print(misspelled_vegetable)
+#
+# #error
+# misspelled_vegetable[3] = 'u'
+# print(misspelled_vegetable)
+
+# fruit = 'applle'
+# new_fruit = fruit[:4] + fruit[-1]
+# new_fruit2 = fruit.replace("applle", "apple")
+# print(new_fruit)
+# print(new_fruit2)
+
+# name = 'Ameer'
+# other_name = name
+# name = 'John'
+# print(name)
+# print(other_name)
+#
+# books = ['Book1', 'Book2', 'Book3']
+# more_books = books
+# books[0] = 'Book5'
+# print(books)
+# print(more_books)
+#
+# more_books[0] = 'Book7'
+# print(books)
+# print(more_books)
+
+numbers = [4, 3, 7, 4]
+print(numbers)
+print(len(numbers))
+print(max(numbers))
+print(min(numbers))
+print(sorted(numbers))
+print(sorted(numbers, reverse=True))
+
+names = ['Thomas', 'Alex', 'Zack']
+print(names)
+print(len(names))
+print(max(names))
+print(min(names))
+print(sorted(names))
+print(sorted(names, reverse=True))
+
+
+months1 = '-'.join(['January', 'February', 'March'])
+print(months1)
+months2 = ' '.join(['January', 'February', 'March'])
+print(months2)
+
+months_list = ['January', 'February', 'March']
+months_list.append('April')
+print(months_list)
+
+print('This person is {}, {}, and {}'.format('tall', 'slim', 'strong'))
 
 
 

@@ -45,9 +45,39 @@
 # comparison_operation = not 5 > 3
 # print(comparison_operation)
 
-movie_title = 'Harry Potter and the Prisoner of Askaban'
-print(movie_title)
-print(movie_title.upper())
-print(movie_title.lower())
-print(movie_title.count('a'))
+# movie_title = 'Harry Potter and the Prisoner of Askaban'
+# print(movie_title)
+# print(movie_title.upper())
+# print(movie_title.lower())
+# print(movie_title.count('a'))
+
+# list1 = [1,2,3,4]
+# tuple1 = (5,6,7,8)
+#
+# print(f"{type(list1)} : {list1}")
+# print(f"{type(tuple1)} : {tuple1}")
+#
+# for i in list1:
+#     if(i <= len(list1)-1):
+#         print(f"{type(list1[i])}")
+
+# ordered_numbers = [0,1,2,3,4,5,6,7,8,9,10]
+# print(ordered_numbers[2:10])
+# print(ordered_numbers[:10])
+# print(ordered_numbers[4:])
+#
+# new_numbers = list(range(5,15))
+# print(new_numbers)
+#
+# new_numbers2 = list(range(4, 87, 5))
+# print(new_numbers2)
+#
+# show_title = 'game of thrones'
+# print(show_title[2])
+# print(show_title[2:5])
+# print(show_title[2:])
+
+
+
+
 

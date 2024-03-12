@@ -24,16 +24,79 @@
 #     grocery_items.update({item_name: item_price})
 #     print('just added the item. updated groceries:', grocery_items)
 
-reynolds_number = 100
+# reynolds_number = 100
+#
+# if 2000 < reynolds_number < 10_000:
+#     print('flow regime is transitional')
+#
+# if reynolds_number > 2000 and reynolds_number < 10_000:
+#     print('flow regime is transitional!')
+#
+# if reynolds_number <= 2000 or reynolds_number >= 10_000:
+#     print('flow regime is not transitional')
+#
 
-if 2000 < reynolds_number < 10_000:
-    print('flow regime is transitional')
+# months = ['January', 'February', 'March']
+#
+# for month in months:
+#     print(month, end=' ')
+#
+# for number in range(0, 100):
+#     print(number, end=' ')
 
-if reynolds_number > 2000 and reynolds_number < 10_000:
-    print('flow regime is transitional!')
+# names = ['hillAry', 'diaNa', 'brian']
+# print(names)
+#
+# for i in range(len(names)):
+#     names[i] = names[i].title()
+#
+# print(names)
 
-if reynolds_number <= 2000 or reynolds_number >= 10_000:
-    print('flow regime is not transitional')
+# movies = {'Titanic': 1997, 'Finding Nemo': 2003, 'The Matrix': 1999}
+#
+# for key in movies:
+#     print(key)
+#
+# for value in movies.values():
+#     print(value)
+#
+# for (key, value) in movies.items():
+#     print(f"{key} - {value}")
+
+# count = 0
+#
+# while count < 5:
+#     print(f"Count is: {count}")
+#     count += 1
+#
+
+# numbers = list(range(0, 10))
+# print(numbers)
+#
+# for number in numbers:
+#     if number % 2 != 0:
+#         continue
+#     print(number)
 
 
+#----------------------------------------------------------------
+# import random
+# target_number = random.randint(1, 100)
+#
+# guess = 0
+# attempts = 0
+#
+# while guess != target_number:
+#     guess = int(input("Guess the number (between 1 and 100): "))
+#     attempts += 1
+#
+#     if guess < target_number:
+#         print("Too low!")
+#     elif guess > target_number:
+#         print("Too high!")
+#     else:
+#         print(f"Congratulations! You've guessed the number {target_number} correctly!")
+#         print(f"It took you {attempts} attempts.")
+#----------------------------------------------------------------
 
+print("Finished")

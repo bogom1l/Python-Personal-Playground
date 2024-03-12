@@ -24,6 +24,16 @@
 #     grocery_items.update({item_name: item_price})
 #     print('just added the item. updated groceries:', grocery_items)
 
+reynolds_number = 100
 
-print('initial commit')
+if 2000 < reynolds_number < 10_000:
+    print('flow regime is transitional')
+
+if reynolds_number > 2000 and reynolds_number < 10_000:
+    print('flow regime is transitional!')
+
+if reynolds_number <= 2000 or reynolds_number >= 10_000:
+    print('flow regime is not transitional')
+
+
 

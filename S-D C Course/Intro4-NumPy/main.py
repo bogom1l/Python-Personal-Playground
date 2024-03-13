@@ -88,13 +88,64 @@ import numpy as np
 # ~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-# Slicing
+# ==== Slicing ====
+
+# x = np.arange(1, 10)
+#
+# print(x[2:7])
+# print(x[2:7:2])
+# print(x[:7])
+# print(x[2:])
+
+# x = np.arange(9)
+# print(x)
+# print("-----------------")
+#
+# x = np.arange(9).reshape(3, 3)
+# print(x)
+# print("-----------------")
+#
+# x = np.arange(9).reshape(3, -1)
+# print(x)
+# print("-----------------")
+#
+# x = np.arange(18).reshape(2, 3, 3)
+# print(x)
+# print("-----------------")
+#
+# x = np.arange(18).reshape(3, 3, 2)
+# print(x)
+# print("-----------------")
+
+#---------------------------------------------------------
+
+# x = np.arange(18).reshape(3, 2, 3)
+# print(x)
+# print(x[1, 1, 1])
+#
+# print(x[1, 0:2, 0:3])
+# print(x[1, :2, :3])
+# print(x[1, :, :])
+# print(x[1, ...])
+# print("------------")
+#
+# print(x[:, 0, 0])
+# print("------------")
+#
+# print(x[1, :2, :3])
+# print(x[1, :2, :3:2]) #each second element
+# print("------------")
+#
+# comparison_operation = x > 4
+# print(comparison_operation)
+# print(x[comparison_operation])
+# print(x[x > 4])
+# print(x.max())
+# print(x.min())
 
 
-
-
-
-
+# Manipulating Array Shapes
+print(1)
 
 
 

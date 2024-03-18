@@ -190,8 +190,82 @@ import numpy as np
 
 # Matrix Multiplication
 
+# matrix_a = np.matrix([0, 3, 5, 5, 5, 2]).reshape(2, 3)
+# print(matrix_a)
+#
+# matrix_b = np.matrix([3, 4, 3, -2, 4, -2]).reshape(3, 2)
+# print(matrix_b)
+#
+# matrix_sum = matrix_a * matrix_b
+# print(matrix_sum)
 
 
+# Stacking
+
+# x = np.arange(4).reshape(2, 2)
+# print(x)
+#
+# y = np.arange(4, 8).reshape(2, 2)
+# print(y)
+#
+# z = np.hstack([x, y])
+# print(z)
+# print(z.shape)
+# print("----------------------------------------")
+#
+# v = np.arange(4).reshape(2, 2)
+# print(v)
+#
+# b = np.arange(8).reshape(4, 2)
+# print(b)
+#
+# n = np.vstack([v, b])
+# print(n)
+# print(n.shape)
+# print("----------------------------------------")
+#
+# w = np.concatenate((x, y), axis=0)
+# print(w)
+# print("----------------------------------------")
 
 
+# Depth Stacking
+
+# x = np.arange(4).reshape(2, 2)
+# print(x)
+#
+# y = x * 2
+# print(y)
+# print("----------------------------------------")
+#
+# depth_stack = np.dstack((x, y))
+# print(depth_stack)
+# print(depth_stack.shape)
+
+
+# x = np.arange(4).reshape(2, 2, 1)
+# print(x)
+#
+# y = x * 2
+# print(y)
+# print("----------------------------------------")
+#
+# depth_stack = np.dstack((x, y))
+# print(depth_stack)
+# print(depth_stack.shape)
+
+
+# Column Stacking
+
+x = np.arange(4).reshape(2, 2)
+print(x)
+
+y = x * 2
+print(y)
+print("----------------------------------------")
+
+column_stacking = np.column_stack((x, y))
+print(column_stacking)
+print(column_stacking.shape)
+print(column_stacking == np.hstack((x, y)))
 

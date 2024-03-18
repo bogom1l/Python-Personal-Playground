@@ -145,11 +145,50 @@ import numpy as np
 
 
 # Manipulating Array Shapes
-print(1)
+
+# x = np.arange(9).reshape(3, 3)
+# print(x)
+#
+# ravelled_array = x.ravel()  # from 2D array to 1D array | returns view (the original array)
+# ravelled_array[2] = 123
+# print(ravelled_array)
+# print(x)
+# print("-----------------------------")
+#
+# x = np.arange(9).reshape(3, 3)
+# print(x)
+# print("-----------------------------")
+#
+# flattened_array = x.flatten()  # from 2D array to 1D array | returns copy
+# flattened_array[1] = 123
+# print(flattened_array)
+# print(x)
+# print("-----------------------------")
+
+# y = np.arange(9)
+# y.shape = [3, 3]
+# print(y)
+# print("-----------------------------")
+#
+# print(y.transpose())
+# print(y.T)
+# print("-----------------------------")
+#
+# print(np.resize(y, (6, 6)))
+# print("-----------------------------")
+#
+# print(np.zeros((6,), dtype=int))
+# print("-----------------------------")
+#
+# print(np.ones((6,), dtype=int))
+# print("-----------------------------")
+#
+# print(np.eye(5, dtype=int))
+#
+# print(np.random.rand(4, 4))
 
 
-
-
+# Matrix Multiplication
 
 
 

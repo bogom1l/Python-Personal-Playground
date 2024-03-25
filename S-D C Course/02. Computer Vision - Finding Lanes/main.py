@@ -10,4 +10,3 @@ canny = cv2.Canny(blur, 5, 150)
 cv2.imshow('result', canny)
 cv2.waitKey(0)
 
-# test commit
